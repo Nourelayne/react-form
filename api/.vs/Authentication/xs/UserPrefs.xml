@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{647A24FC-9785-4C7A-8F24-3C09D53BC39D}|https">
+  <MonoDevelop.Ide.ItemProperties.Authentication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Authentication/Extensions/MigrationExtensions.cs">
+    <Files>
+      <File FileName="Authentication/Program.cs" Line="62" Column="1" />
+      <File FileName="Authentication/appsettings.json" Line="1" Column="1" />
+      <File FileName="Authentication/EFCore/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="Authentication/Extensions/MigrationExtensions.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Authentication" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

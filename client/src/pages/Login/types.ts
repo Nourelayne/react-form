@@ -1,21 +1,17 @@
 import { SubmitHandler, UseFormHandleSubmit, UseFormRegister, UseFormReset } from "react-hook-form";
 import { UseMutationResult } from "react-query";
+import { AccessTokenResponse, LoginRequest } from "../../../ApiServices";
 
 export type TLoginCmpt = {
     isEmailFieldOnError: boolean;
     isPasswordFieldOnError: boolean;
-    handleSubmit: UseFormHandleSubmit<TLogin>;
-    onSubmit: SubmitHandler<TLogin>;
-    register: UseFormRegister<TLogin>;
+    handleSubmit: UseFormHandleSubmit<LoginRequest>;
+    onSubmit: SubmitHandler<LoginRequest>;
+    register: UseFormRegister<LoginRequest>;
 }
 
 export type TOnSubmit = {
-    data: TLogin;
-    mutation: UseMutationResult<Response, unknown, TLogin, unknown>;
-    reset: UseFormReset<TLogin>;
-};
-
-export type TLogin = {
-    email?: string;
-    password?: string;
+    data: LoginRequest;
+    mutation: UseMutationResult<AccessTokenResponse, unknown, LoginRequest, unknown>;
+    reset: UseFormReset<LoginRequest>;
 };

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/salahnourelayne/Projects/Authentication/Authentication/Authentication.csproj": {}
+    "/Users/salahnourelayne/Projects/Authentication Web App/api/Authentication/Authentication.csproj": {}
   },
   "projects": {
-    "/Users/salahnourelayne/Projects/Authentication/Authentication/Authentication.csproj": {
+    "/Users/salahnourelayne/Projects/Authentication Web App/api/Authentication/Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/salahnourelayne/Projects/Authentication/Authentication/Authentication.csproj",
+        "projectUniqueName": "/Users/salahnourelayne/Projects/Authentication Web App/api/Authentication/Authentication.csproj",
         "projectName": "Authentication",
-        "projectPath": "/Users/salahnourelayne/Projects/Authentication/Authentication/Authentication.csproj",
+        "projectPath": "/Users/salahnourelayne/Projects/Authentication Web App/api/Authentication/Authentication.csproj",
         "packagesPath": "/Users/salahnourelayne/.nuget/packages/",
-        "outputPath": "/Users/salahnourelayne/Projects/Authentication/Authentication/obj/",
+        "outputPath": "/Users/salahnourelayne/Projects/Authentication Web App/api/Authentication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/salahnourelayne/.nuget/NuGet/NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

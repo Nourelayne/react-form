@@ -25,11 +25,13 @@
     <None Remove="EFCore\" />
     <None Remove="Extensions\" />
     <None Remove="Options\" />
+    <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="EFCore\" />
     <Folder Include="Extensions\" />
     <Folder Include="Options\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 </Project>
